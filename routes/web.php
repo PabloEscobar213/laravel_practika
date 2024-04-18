@@ -14,10 +14,38 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('pages/home');
+    return view('welcome');
 });
-/*Route::get('/', function () {
-    return view('pages/weclome');
-}); 
+Route::get('/login', function () {
+    return view('login');
+});
+Route::get('/registration', function () {
+    return view('registration');
+});
+route::name('user.')->group(function(){
+    route::view('/private', 'private')->middleware('auth')->name('private');
 
-*/
+    route::get('/login', function(){
+        if(Auth::check()){
+            return redirect(route('user.private'));
+        }
+        return view('login');
+    })->name('login'); 
+
+    //route::post('/login', [])
+
+    //route::get('/logout',[])->('logout');
+
+    route::get('/registration', function(){
+        if(Auth::check()){
+            return redirect(route('user.private'));
+        }
+        return view('registration');
+    })->name('registration');
+
+    route::post('/registration',[\App\Http\Controllers\RegisterController::class, 'save']);
+});
+
+
+
+
