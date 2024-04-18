@@ -30,14 +30,16 @@
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-md-8">
-      <div class="product-details">
-        <h1 class="text-center">{{$data->id_product}}</h1>
-        <img src="{{'<img src="data:image/jpeg;base64,'.base64_encode( $blob ).'"/>' }}" alt="ББ" class="product-image">
-        <p class="mt-3">{{$data->id_sell}}</p>
-        <p>{{$data->id_product}}</p>
-        <button class="btn btn-primary">Добавить в корзину</button><br>
-        <button class="btn btn-primary">Назад</button>
-      </div>
+    <div class="col-md-6">
+    <p>Цена: {{ number_format($product->price, 2, '.', '') }}</p>
+    <form action="{{ route('product.add', ['id' => $product->id]) }}"
+          method="post" class="form-inline">
+        @csrf
+        <input type="text" name="quantity" id="input-quantity" value="1"
+               class="form-control mx-2 w-25">
+        <button type="submit" class="btn btn-success">Добавить в корзину</button>
+    </form>
+</div>
     </div>
   </div>
 </div>

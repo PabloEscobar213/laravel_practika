@@ -121,7 +121,7 @@
               <label for="cc-cvv" class="form-label">CVC</label>
               <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
               <div class="invalid-feedback">
-                Security code required
+               
               </div>
             </div>
           </div>
@@ -133,7 +133,18 @@
       </div>
     </div>
   </main>
-
+  <td>{{ $loop->iteration }}</td>
+                    <td>
+                        <a href="{{ route('catalog.product', [$product->slug]) }}">{{ $product->name }}</a>
+                    </td>
+                    <td>{{ number_format($itemPrice, 2, '.', '') }}</td>
+                    <td>
+                        <i class="fas fa-minus-square"></i>
+                        <span class="mx-1">{{ $itemQuantity }}</span>
+                        <i class="fas fa-plus-square"></i>
+                    </td>
+                    <td>{{ number_format($itemCost, 2, '.', '') }}</td>
+                </tr>
   
 <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
