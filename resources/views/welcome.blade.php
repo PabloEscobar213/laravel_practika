@@ -59,7 +59,7 @@
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
           <div class="card shadow-sm">
-            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://redsneaker.ru/components/com_jshopping/files/img_products/894/adidas-t-zx-runner-amr-894-1.jpg" role="img"  preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="{{'<img src="data:image/jpeg;base64,'.base64_encode( $blob ).'"/>' }}" role="two"  preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
 
             <div class="card-body">
               <p class="card-text"></p>
@@ -75,7 +75,7 @@
         </div>
         <div class="col">
         <div class="card shadow-sm">
-            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://outmaxshop.ru/components/com_jshopping/files/img_products/5391/reebok-classic-leather-utility-5391-1.jpg" role="img"  preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="{{'<img src="data:image/jpeg;base64,'.base64_encode( $blob ).'"/>' }}" role="one"  preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
 
             <div class="card-body">
               <p class="card-text"></p>
@@ -91,7 +91,7 @@
         </div>
         <div class="col">
         <div class="card shadow-sm">
-            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://redsneaker.ru/components/com_jshopping/files/img_products/5392/reebok-ventilator-5392-6.jpg" role="img"  preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="{{'<img src="data:image/jpeg;base64,'.base64_encode( $blob ).'"/>' }}" role="three"  preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
 
             <div class="card-body">
               <p class="card-text"></p>
@@ -108,7 +108,7 @@
 
         <div class="col">
         <div class="card shadow-sm">
-            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://mehaplaza.ru/catalog/dlya_nego/dlya_nego_2.jpg" role="img"  preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="{{'<img src="data:image/jpeg;base64,'.base64_encode( $blob ).'"/>' }}" role="four"  preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
 
             <div class="card-body">
               <p class="card-text"></p>
@@ -124,7 +124,7 @@
         </div>
         <div class="col">
         <div class="card shadow-sm">
-            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://kostum66.ru/files/originals/original-34.jpg" role="img"  preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="{{'<img src="data:image/jpeg;base64,'.base64_encode( $blob ).'"/>' }}" role="five"  preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
 
             <div class="card-body">
               <p class="card-text"></p>
@@ -140,7 +140,7 @@
         </div>
         <div class="col">
         <div class="card shadow-sm">
-            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://thefashionisto.com/wp-content/uploads/2013/08/lab013.jpg" role="img"  preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="{{'<img src="data:image/jpeg;base64,'.base64_encode( $blob ).'"/>' }}" role="six"  preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
 
             <div class="card-body">
               <p class="card-text"></p>
